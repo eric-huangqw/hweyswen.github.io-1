@@ -1,0 +1,41 @@
+
+<meta charset="utf-8"> <!-- Support for Internet Explorer -->
+<style type="text/css">
+    a
+    {
+        text-decoration: none;
+    }
+    header a
+    {
+        color: black;
+    }
+    header a.brand
+    {
+        font-weight: bold;
+        color: black;
+    }
+    header a.active
+    {
+        color: #0000cc;
+    }
+</style>
+<header>
+    <p>
+        <a href="" class="brand">回旋工作室</a>&nbsp;&nbsp;
+        <a href="home.html" class="active">主页</a>
+        <a href="">链接</a>
+    </p>
+</header>
+<hr />
+<section>
+    <h1>欢迎！你来到了回旋工作室。</h1>
+</section>
+<hr />
+<footer>
+    Copyright &copy; <span class="year"></span> 回旋工作室。保留所有权利。
+    <br />
+    联系我们：<a href="mailto:eric.huang11@aliyun.com">黄秋闻的email</a>
+    <script>
+        document.getElementsByClassName("year")[0].innerHTML = new Date().getFullYear().toString();
+    </script>
+</footer>
